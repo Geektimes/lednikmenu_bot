@@ -1,7 +1,7 @@
 import telepot
 token = '704863029:AAH271XQgaiUPOQ1jJniNDw3kToGuN2Exog' #lednikmenu_bot
 
-SetProxy = telepot.api.set_proxy("http://136.243.47.220:3128")
+#SetProxy = telepot.api.set_proxy("http://136.243.47.220:3128")
 bot = telepot.Bot(token)
 
 from pprint import pprint
