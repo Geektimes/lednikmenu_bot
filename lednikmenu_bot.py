@@ -18,7 +18,5 @@ def handle(msg):
 MessageLoop(bot, handle).run_as_thread()
 
 # Keep the program running.
-while True:
-    n = input('To stop enter "stop":')
-    if n.strip() == 'stop':
-        break
+while 1:
+    time.sleep(10)
