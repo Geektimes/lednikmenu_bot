@@ -1,5 +1,6 @@
 import telepot
-token = '704863029:AAH271XQgaiUPOQ1jJniNDw3kToGuN2Exog' #lednikmenu_bot
+token = '704863029:AAH271XQgaiUPOQ1jJniNDw3kToGuN2Exog' #lednikmenu_bot.   
+#token = '869400286:AAEnJt8AAzgypKOrh0UYf5lNqeEMak4d4ek'  #robotHobot
 
 #SetProxy = telepot.api.set_proxy("http://136.243.47.220:3128")
 bot = telepot.Bot(token)
