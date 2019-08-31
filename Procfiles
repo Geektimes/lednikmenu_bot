@@ -1,1 +1,0 @@
-worker: python lednikmenu_bot.py $PORT
