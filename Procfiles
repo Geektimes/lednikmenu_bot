@@ -1,1 +1,1 @@
-worker: python lednikmenu_bot-3.7.2.py $PORT
+bot: python3 lednikmenu_bot.py
