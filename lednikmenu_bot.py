@@ -1,9 +1,11 @@
+# 09/09/19 15:42
 import sys
 import time
+import json
 import telepot
 import telegram
 from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
-from wine import w_white, w_red, w_pink, w_strong, w_desert
+
 
 def convert_list_in_str(list):
     html_text = ''
@@ -64,5 +66,12 @@ TOKEN = '869400286:AAEnJt8AAzgypKOrh0UYf5lNqeEMak4d4ek' # Robot-hobot
 
 SetProxy = telepot.api.set_proxy("http://136.243.47.220:3128")
 bot = telepot.Bot(TOKEN)
+
+with open('alcohol.json', 'r', encoding='utf-8') as f:
+    korobka = json.load(f)
+
+
+print(korobka)
+
 print('Listening ...')
 bot.message_loop({'chat': on_chat_message}, run_forever=True)
